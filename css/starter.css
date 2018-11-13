@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    background-color: darkblue;
+    color: aqua;
+}
+.navarea {
+    background-color: lightblue;
+    padding: 5px;
+}
+nav {
+    color: darkblue;
+    font-size: 24pt;
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: black;
+}
+a:hover{
+    color: white;
+}
+h2 {
+    color: lightblue;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    line-height: 200%;
+}
+.content {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50%;
+}
+footer {
+    font-size: .75em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
