@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* internal stylesheet */
+body {
+	background-color: darkgray;
+	color: aquamarine;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+h1 {
+	background-color: aquamarine;
+	color: darkgray;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-indent: 1em;
+	text-shadow: 3px 3px 3px #CCCCCC;
+	line-height: 200%
+}
+h2 {
+	background-color: #AEAED4;
+	color: aquamarine;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+}
+nav {
+	font-weight: bold;
+	font-size: 1.25em;
+	word-spacing: 1em;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:visted{
+background-color: #BB85DF;
+	color: brown;
+}
+nav a:hover {
+	background-color: #7F930E;
+	color: gold;
+}
+p {
+	font-size: .90em;
+	text-indent: 3em;
+}
+ul {
+	font-weight: bold;
+}
+
+.feature {
+	color: #FF0000
+}
+
+footer {
+	color: #00FF1D;
+	font-size: .75em;
+	font-style: italic;
+	text-align: center;
+}
+
+.company {
+	font-weight: cold;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 1.25em;
+}
+
+#button a {
+	border: 2px inset #D4D4D4;
+	padding: 3px 15px;
+	color: #FFFFFF;
+	background-color: aquamarine;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
